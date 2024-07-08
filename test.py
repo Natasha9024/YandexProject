@@ -8,5 +8,3 @@ def test_create_order():
     track_number = responce.json()["track"]
     responce_get = create_request.get_order_url(track_number)
     assert responce_get.status_code == 200
-    
-test_create_order()
