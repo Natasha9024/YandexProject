@@ -1,7 +1,7 @@
 # Наталия Зубец, 18-я когорта — Финальный проект. Инженер по тестированию плюс
 import create_request
 import data
-import requests
+
 
 def test_create_order():
     responce = create_request.post_new_order(data.order_body)
